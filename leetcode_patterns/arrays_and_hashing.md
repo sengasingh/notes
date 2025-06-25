@@ -1,6 +1,6 @@
 # Arrays & Hashing Pattern
 
-The **arrays & hashing** pattern leverages hash-based data structures (typically **hash maps** and **hash sets**) to trade extra space for faster lookup, insertion, and frequency counting—achieving **O(n)** or **O(n log n)** time in many scenarios instead of brute-force **O(n²)**. It’s ideal whenever you need to track occurrences, detect complements, group items by key, or enforce uniqueness.
+The **arrays & hashing** pattern leverages hash-based data structures (typically **hash maps** and **hash sets**) to trade extra space for faster lookup, insertion, and frequency counting, achieving **O(n)** or **O(n log n)** time in many scenarios instead of brute-force **O(n²)**. It’s ideal whenever you need to track occurrences, detect complements, group items by key, or enforce uniqueness.
 
 ---
 
@@ -116,7 +116,7 @@ def two_sum(nums, target):
 - **Order of Operations**: when checking complements, always query *before* inserting the current element to avoid using the same element twice.  
 - **Use \`.get()\` Wisely**: for counts, \`count = freq.get(x, 0) + 1\`.  
 - **Key Derivation**: for grouping (e.g., anagrams), use immutables like sorted tuple of chars or character-count signature.  
-- **Memory vs. Speed**: hashing trades memory for time—ensure constraints allow O(n) extra space.  
+- **Memory vs. Speed**: hashing trades memory for time, so ensure constraints allow O(n) extra space.  
 - **Practice Edge Limits**: huge arrays, negative numbers, k = 0, empty strings.
 
 ---
