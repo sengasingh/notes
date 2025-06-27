@@ -149,7 +149,7 @@ def length_of_longest_substring(s):
 | Variable-Size Window (sum/count)    | O(n)            | O(1)                 |
 | Variable-Size Window (unique count) | O(n)            | O(m)                 |
 
-*m = number of distinct elements or character set size.*
+*m = number of distinct elements or character set size*
 
 ---
 
