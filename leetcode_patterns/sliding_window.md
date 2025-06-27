@@ -126,7 +126,7 @@ def length_of_longest_substring(s):
 ```
 
 - **Time**: O(n)  
-- **Space**: O(min(n, m)), where m = size of the character set
+- **Space**: O(min(n, m)), where m = size of the character
 
 ---
 
