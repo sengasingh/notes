@@ -1,4 +1,3 @@
-```markdown
 # Backtracking Pattern
 
 **Backtracking** is a **depth-first search** that builds a partial solution step by step and **backs up** as soon as a **constraint** is violated or the branch can’t beat the current best. Use it to **enumerate**, **decide (exists?)**, **count**, or **optimize** under constraints.
@@ -225,4 +224,3 @@ Branch & Bound (maximize score with remaining bound)
 ---
 
 *End of Notes*
-```
