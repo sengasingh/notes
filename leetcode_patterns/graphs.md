@@ -159,3 +159,5 @@ Phrases like:
 **Rule of thumb:** start with BFS/DFS for structure; pick shortest-path/MST algorithms by **weight rules** and **graph type**.
 
 ---
+
+*End of Notes*
